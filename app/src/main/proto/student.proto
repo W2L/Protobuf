@@ -1,0 +1,18 @@
+syntax = "proto3";
+package cn.rock;
+option java_package = "cn.rock";
+option java_outer_classname = "StudentProto";
+message Student {
+  string name = 1;
+  int32 age = 2;
+  Sex sex = 3;
+  string email = 4;
+  map<string, string> address = 5;
+  repeated string course = 6;
+
+  enum Sex {
+    MALE = 0;
+    FEMALE = 1;
+  }
+}
+
