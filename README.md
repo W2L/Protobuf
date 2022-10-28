@@ -1,2 +1,2 @@
-# video
-MediaPlayer + GLSurfaceView播放视频
+# ProtoBuf
+Android平台学习使用protobuf
